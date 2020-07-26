@@ -302,3 +302,27 @@ article header .subtitulo h3 {
     margin: 0;
     padding: 0;
 }
+
+.content .titulo-conquista {
+    margin: 0;
+}
+
+button {
+    background-color: var(--blue-text);
+    color: var(--gray-light-text);
+    width: 45vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
