@@ -256,7 +256,7 @@ article header .titulo h1 {
 .content .card-emprestimo {
 
     background-color: var(--light-purple);
-    margin: 5vh;
+    padding: 5vh;
     height: 5vh;
 
     font-size: 18px;
