@@ -140,7 +140,6 @@ header .profile-pontuacao p {
     border: solid 1px #906EE3;
 }
 
-
 .content .card-resumo {
     background-color: var(--light-purple);
     border-radius: 15px;
@@ -149,4 +148,84 @@ header .profile-pontuacao p {
     padding: 4vh;
     height: 6vh;
     margin: 2vh;
+}
+
+.linha-tempo .titulo-mes {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.linha-tempo .titulo-mes p {
+    color: var(--orange);
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.linha-tempo .linha-cor {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    margin-bottom: 4vh;
+}
+
+.completado {
+    background-color: #00DB09;
+    width: 50%;
+    height: 4px;
+    border-radius: 30px;
+}
+.restante {
+    background-color: #C4C4C4;
+    width: 50%;
+    height: 4px;
+    border-radius: 30px;
+}
+
+.content .card-atraso {
+    background-color: var(--gray-light-text);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 6vh;
+    margin: 2vh;
+}
+
+
+.content .card-atraso .card-valor-atraso .valor-atraso-titulo p,
+.content .card-atraso .card-valor-proxima .valor-proxima-titulo p,
+.content .card-atraso .card-valor-total .valor-total-titulo p {
+    color: #BDA6F8;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.content .card-atraso .card-valor-atraso .valor-atraso-reais p,
+.content .card-atraso .card-valor-proxima .valor-proxima-reais p,
+.content .card-atraso .card-valor-total .valor-total-reais p {
+    color: #3A0DAA;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+.amigus-apoiadores {
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+
+    color: orange;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
 }
