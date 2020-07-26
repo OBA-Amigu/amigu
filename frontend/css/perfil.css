@@ -1,0 +1,39 @@
+
+:root {
+    --orange: #FBB31F;
+    --gray-title: #535457;
+    --gray-main-text: #7E7F85; 
+    --gray-light-text: #E4E6ED;
+    --blue-text: #3A0DAA;
+    --blue-link: #3C79E6;
+    --light-purple: #7241EC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+body {
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 100%;
+}
