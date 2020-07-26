@@ -32,8 +32,121 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-header {
+header .profile-header {
+    justify-content: space-around;
+    margin-top: 2vh;
     width: 100%;
     height: 100%;
+
+    display: flex;
+}
+
+header .profile-texto {
+    display: grid;
+    align-content: center;
+}
+
+header .profile-texto .titulo p {
+    color: var(--gray-title-text);
+    font-size: 18px;
+}
+
+header .profile-texto .subtitulo p {
+    color: var(--gray-main-text);
+    font-size: 14px;
+}
+
+header .profile-pontuacao {
+    display: grid;
+    align-content: center;
+}
+header .profile-pontuacao p {
+    background-color: var(--blue-text);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+/*
+.content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+*/
+
+.content .card-sonho {
+    background-color: var(--blue-text);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 6vh;
+    margin: 2vh;
+}
+
+.content .card-sonho .card-titulo p,
+.content .card-resumo .card-titulo p {
+    color: #ECE4FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content .card-sonho .card-subtitulo p {
+    color: #FCFCFF;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.content .card-resumo .card-valor-total .valor-total-titulo p,
+.content .card-resumo .card-valor-pago .valor-pago-titulo p,
+.content .card-resumo .card-valor-restante .valor-restante-titulo p {
+    color: #BDA6F8;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.content .card-resumo .card-valor-total .valor-total-reais p,
+.content .card-resumo .card-valor-pago .valor-pago-reais p,
+.content .card-resumo .card-valor-restante .valor-restante-reais p {
+    color: white;
+    text-align: center;
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 200;
+}
+
+.content .card-sonho .card-valor-circulo p {
+    color: white;
+
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+
+}
+
+.content .card-sonho .card-valor-circulo {
+    border-radius: 15px;
+    background-color: #7241EC;
+    padding: 5px;
+    border: solid 1px #906EE3;
+}
+
+
+.content .card-resumo {
+    background-color: var(--light-purple);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4vh;
+    height: 6vh;
+    margin: 2vh;
 }
