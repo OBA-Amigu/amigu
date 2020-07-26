@@ -296,15 +296,34 @@ article header .subtitulo h3 {
 .content .conquista-imagem img {
     width: 160px;
     height: 160px;
+
+    margin-top: 3vh;
 }
 
-.content .conquista-imagem  p {
-    margin: 0;
-    padding: 0;
+.conquista .titulo-conquista p {
+    color: var(--blue-text);
+    
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600;
 }
 
-.content .titulo-conquista {
-    margin: 0;
+.conquista .subtitulo-conquista p {
+    color: var(--gray-main-text);
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.conquista .pontuacao p {
+    color: var(--blue-text);
+    
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+
+    text-align: center;
 }
 
 button {
