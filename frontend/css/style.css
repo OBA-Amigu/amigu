@@ -304,6 +304,7 @@ article header .subtitulo h3 {
 .conquista .titulo-conquista p {
     color: var(--blue-text);
     
+    text-align: center;
     font-size: 28px;
     line-height: 38px;
     font-weight: 600;
