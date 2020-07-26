@@ -13,6 +13,7 @@ font-family: 'Roboto Slab', serif;
     --blue-text: #3A0DAA;
     --blue-link: #3C79E6;
     --light-purple: #7241EC;
+    --rosa-choque: #FF32CF;
 }
 
 * {
@@ -310,7 +311,7 @@ article header .subtitulo h3 {
 
 .conquista .subtitulo-conquista p {
     color: var(--gray-main-text);
-    
+    text-align: center;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
@@ -333,6 +334,13 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
+}
+
+.rosa {
+    background-color: var(--rosa-choque);
+    width: 20vh;
+    border-radius: 40px;
+    font-size: x-large;
 }
 
 a {
