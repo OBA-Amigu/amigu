@@ -7,6 +7,11 @@ font-family: 'Roboto Slab', serif;
 
 :root {
     --orange: #FBB31F;
+    --gray-title: #535457;
+    --gray-main-text: #7E7F85; 
+    --gray-light-text: #E4E6ED;
+    --blue-text: #3A0DAA;
+    --blue-link: #3C79E6;
 }
 
 * {
@@ -149,5 +154,86 @@ header {
     color: var(--orange);
 }
 
-footer {
+/* 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+Páginas padrão
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+*/
+
+article header .main-header .voltar{
+    margin-top: 7vh;
+    margin-left: 5vh;
 }
+
+article header .titulo {
+    margin-left: 5vh;
+}
+
+article header .titulo h1 { 
+    color: var(--gray-title);
+    
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.content {
+    width: fit-content;
+    padding-left: 5vh;
+}
+
+.form input[type=text], input[type=tel] {
+    color: var(--gray-main-text);
+    width: 45vh;
+
+    border-bottom: solid 2px var(--gray-main-text);
+}
+
+.form input[type=submit] {
+    background-color: var(--blue-text);
+    color: var(--gray-light-text);
+
+    width: 45vh;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form input:focus {
+    color: var(--gray-main-text);
+    
+    border-bottom: solid 2px var(--orange);
+}
+
+.form label {
+    color: var(--blue-text);
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-left: 0;
+
+    padding-bottom: 2vh;
+    padding-top: 5vh;
+}
+
+.form .termos {
+    padding-bottom: 2vh;
+    padding-top: 5vh;
+
+    color: var(--gray-main-text);
+}
+
+.form .termos a {
+    color: var(--blue-link);
+    text-decoration: none;
+}
+
+.form .termos a:hover {
+    color: var(--blue-link);
+}
+

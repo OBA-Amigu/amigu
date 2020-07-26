@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Parte 1</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article>
+        <header>
+            <div class="main-header">
+                <div class="voltar"><a href="index.html"><img src="imagens/seta.svg" alt="Voltar"></a></div>
+
+                <div class="separador"></div>
+
+                <div class="titulo">
+                    <h1>Cadastro</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="wrapper">
+            <form action="index.html">
+                <div class="content form">
+                    <label for="CPF">CPF</label>
+                    <input type="text" name="CPF" id="CPF" placeholder="154.254.986-35" required>
+                    
+                    <label for="Nome">Nome</label>
+                    <input type="text" name="Nome" id="Nome" placeholder="Joana Clementino" required>
+
+                    <label for="Telefone">Telefone</label>
+                    <input type="tel" name="Telefone" id="Telefone" placeholder="(11) 96585-5642" required>
+
+                    <div class="termos">
+                        <input type="checkbox" name="Autorizacao" id="Autorizacao" required> <a href="">Li o termo</a> e autorizo acesso as minhas contas
+                    </div>
+
+                    <input type="submit" value="Proximo">
+                </div>
+            </form>
+        </div>
+        <footer>
+            
+        </footer>
+    </article>
+</body>
+</html>
