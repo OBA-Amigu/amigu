@@ -166,7 +166,7 @@ article header .main-header .voltar{
     margin-left: 5vh;
 }
 
-article header .titulo {
+article header .titulo, .subtitulo {
     margin-left: 5vh;
 }
 
@@ -178,14 +178,24 @@ article header .titulo h1 {
     line-height: 44px;
 }
 
+article header .subtitulo h3 { 
+    color: var(--gray-main-text);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
 .wrapper {
     width: 100%;
 }
 
-.content {
+
+.form {
     width: fit-content;
     padding-left: 5vh;
 }
+
 
 .form input[type=text], input[type=tel] {
     color: var(--gray-main-text);
@@ -272,3 +282,23 @@ article header .titulo h1 {
     text-decoration: none;
 }
 
+.conquista {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.content .conquista-imagem {
+    display: grid;
+    justify-items: center;
+}
+
+.content .conquista-imagem img {
+    width: 160px;
+    height: 160px;
+}
+
+.content .conquista-imagem  p {
+    margin: 0;
+    padding: 0;
+}
