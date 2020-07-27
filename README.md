@@ -3,9 +3,9 @@ OBA - Open Banking Amigu. A solução diferenciada que permite emprestar e pedir
 
 ## Equipe:
 
-[Erick]:(https://github.com/erickcg97)
+[Erick](https://github.com/erickcg97)
 
-[Lucas]:(https://github.com/skylucacius)
+[Lucas](https://github.com/skylucacius)
 
 [Luciana](https://github.com/lcnunes09)
 
@@ -31,7 +31,7 @@ Modelo de negócio:
 
 
 ### Saiba mais
-[Video Pitch](https://www.youtube.com/watch?v=ADvNYGEKOaQ)
+[Video Pitch](https://www.youtube.com/watch?v=irYVLOcneIc)
 
 [Video Demo](https://youtu.be/VaOwph-mo_s)
 
