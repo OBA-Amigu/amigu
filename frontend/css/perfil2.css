@@ -104,7 +104,10 @@ header .profile-pontuacao p {
 
 .content .card-sonho .card-valor-total .valor-total-titulo p,
 .content .card-sonho .card-valor-pago .valor-pago-titulo p,
-.content .card-sonho .card-valor-restante .valor-restante-titulo p {
+.content .card-sonho .card-valor-restante .valor-restante-titulo p,
+.content .card-resumo .card-valor-total .valor-total-titulo p,
+.content .card-resumo .card-valor-pago .valor-pago-titulo p,
+.content .card-resumo .card-valor-restante .valor-restante-titulo p {
     color: #BDA6F8;
     text-align: center;
 
@@ -115,7 +118,10 @@ header .profile-pontuacao p {
 
 .content .card-sonho .card-valor-total .valor-total-reais p,
 .content .card-sonho .card-valor-pago .valor-pago-reais p,
-.content .card-sonho .card-valor-restante .valor-restante-reais p {
+.content .card-sonho .card-valor-restante .valor-restante-reais p, 
+.content .card-resumo .card-valor-total .valor-total-reais p,
+.content .card-resumo .card-valor-pago .valor-pago-reais p,
+.content .card-resumo .card-valor-restante .valor-restante-reais p {
     color: white;
     text-align: center;
 
@@ -175,13 +181,13 @@ header .profile-pontuacao p {
 
 .completado {
     background-color: #00DB09;
-    width: 50%;
+    width: 25%;
     height: 4px;
     border-radius: 30px;
 }
 .restante {
     background-color: #C4C4C4;
-    width: 50%;
+    width: 75%;
     height: 4px;
     border-radius: 30px;
 }
