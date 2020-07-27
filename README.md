@@ -31,7 +31,7 @@ Modelo de negócio:
 
 [Figma](https://www.figma.com/file/aLdEg1YYZ9HfWmWSfebkSU/Hackthon-TecBan?node-id=2%3A29)
 
---
+-----
 ### Projeto 
 - É possível verificar a tela de login, com a possibilidade de continuar com Facebook ou Google, e, caso a pessoa prefira, pode se cadastrar informando CPF, Nome e Telefone.
 - Para acesso as informações, a pessoa precisa autorizar a leitura das informações bancárias existentes através da API promovida pela TecBan.
