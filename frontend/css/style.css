@@ -207,7 +207,6 @@ article header .subtitulo h3 {
 
 .form input[type=checkbox] {
     color: var(--orange);
-    width: 10vw;
     height: 2vh;
     border-bottom: solid 2px var(--gray-main-text);
     margin-bottom: 4vh;
@@ -227,6 +226,34 @@ article header .subtitulo h3 {
     color: var(--gray-main-text);
     
     border-bottom: solid 2px var(--orange);
+}
+
+.form .checkbox-form {
+    display: grid;
+
+}
+
+.form .checkbox-form input[type=radio] {
+    margin-bottom: 0vh;
+    margin-right: 1vh;
+
+    margin-top: 2px;
+}
+
+.form .checkbox-form input[type=submit] {
+    background-color: var(--blue-text);
+    color: var(--gray-light-text);
+
+    width: 45vh;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+    margin-top: 15px;
+}
+
+.form .opcao {
+    display: flex;
 }
 
 .form label {
@@ -325,6 +352,17 @@ article header .subtitulo h3 {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
+}
+
+.subtitulo-juros {
+    color: var(--gray-main-text);
+    
+    width: 40vh;
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
 }
 
 .conquista .subtitulo-conquista p {
@@ -455,3 +493,4 @@ li button:focus {
     transition-duration: 2s;
     transition-timing-function: ease;
 }
+

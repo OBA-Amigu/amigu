@@ -8,33 +8,37 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <article>
-        <header>
-            <div class="main-header">
-                <div class="voltar"><a href="index.html"><img src="imagens/seta.svg" alt="Voltar"></a></div>
+<article>
+    <header>
+        <div class="main-header">
+            <div class="voltar"><a href="index.html"><img src="imagens/seta.svg" alt="Voltar"></a></div>
 
-                <div class="separador"></div>
+            <div class="separador"></div>
 
-                <div class="titulo">
-                    <h1>Cadastro</h1>
-                </div>
+            <div class="titulo">
+                <h1>Qual o seu perfil ?</h1>
             </div>
-        </header>
-
-        <div class="wrapper">
-            <form action="inicio.html">
-                <div class="content form">
-                    <div class="termos">
-                        <input type="checkbox" name="Autorizacao" id="Autorizacao" required> <a href="">Li o termo</a> e autorizo acesso as minhas contas
-                    </div>
-
-                    <input type="submit" value="Proximo">
-                </div>
-            </form>
         </div>
-        <footer>
-            
-        </footer>
-    </article>
+    </header>
+
+    <form action="perfil-conservador.html">
+        <div class="content form">
+            <label>Por quanto tempo você pretende deixar o seu dinheiro ?</label>
+            <div class="checkbox-form">
+                <div class="opcao"><input name="tempo" type="radio" value="1"><p>Menos de 6 meses </p></div>
+                <div class="opcao"><input name="tempo" type="radio" value="2"><p>Entre 6 meses e 1 ano</p></div>
+                <div class="opcao"><input name="tempo" type="radio" value="3"><p>Entre 1 ano e 3 anos</p></div>
+                <div class="opcao"><input name="tempo" type="radio" value="4"><p>Mais de 3 anos</p></div>
+           
+
+                <input type="submit" value="Próximo">
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        
+    </footer>
+</article>
 </body>
 </html>
