@@ -362,3 +362,52 @@ footer {
     justify-content: center;
     margin-bottom: 2vh;
 }
+
+ul {
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+li button {
+    color: var(--gray-title);
+    background-color: var(--gray-light-text);
+    width: 30px;
+}
+
+li button:focus {
+    color: white;
+    background-color: var(--blue-text);
+    width: 30px;
+}
+
+.valor-parcela {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.valor-parcela p {
+    color: white;
+    background-color: var(--rosa-choque);
+
+    padding: 3vh;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.taxa {
+    display: flex;
+    justify-content: center;
+}
+
+.taxa p {
+    color: var(--gray-main-text);
+    
+    margin-top: 2vh;
+
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+}
