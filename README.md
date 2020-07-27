@@ -1,6 +1,12 @@
 # amigU
 OBA - Open Banking Amigu. A solução diferenciada que permite emprestar e pedir dinheiro emprestado com boas taxas baseadas no seu comportamento!
 
+Equipe:
+[Erick]:(https://github.com/erickcg97)
+[Lucas]:(https://github.com/skylucacius)
+[Luciana](https://github.com/lcnunes09)
+[Francisco](https://github.com/francisnardi)
+Mirelle
 --
 
 **Dor**:
@@ -20,8 +26,11 @@ Modelo de negócio:
 
 ### Saiba mais
 [Video Pitch](https://www.youtube.com/watch?v=ADvNYGEKOaQ)
+
 [Video Demo](https://youtu.be/VaOwph-mo_s)
+
 [Apresentação](https://github.com/OBA-Amigu/amigu/blob/master/Time25_OBA.pdf)
+
 [Figma](https://www.figma.com/file/aLdEg1YYZ9HfWmWSfebkSU/Hackthon-TecBan?node-id=2%3A29)
 
 --
