@@ -354,6 +354,17 @@ article header .subtitulo h3 {
     font-weight: 600;
 }
 
+.subtitulo-juros {
+    color: var(--gray-main-text);
+    
+    width: 40vh;
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
 .conquista .subtitulo-conquista p {
     color: var(--gray-main-text);
     text-align: center;
@@ -482,3 +493,4 @@ li button:focus {
     transition-duration: 2s;
     transition-timing-function: ease;
 }
+
