@@ -17,6 +17,13 @@ Modelo de negócio:
 * Monetização através do Spread das Transações
 * Mitigação do risco de crédito através dos Apoiadores amigU’s
 
+
+### Saiba mais
+[Video Pitch](https://www.youtube.com/watch?v=ADvNYGEKOaQ)
+[Video Demo](https://youtu.be/VaOwph-mo_s)
+[Apresentação](https://github.com/OBA-Amigu/amigu/blob/master/Time25_OBA.pdf)
+[Figma](https://www.figma.com/file/aLdEg1YYZ9HfWmWSfebkSU/Hackthon-TecBan?node-id=2%3A29)
+
 --
 ### Projeto 
 - É possível verificar a tela de login, com a possibilidade de continuar com Facebook ou Google, e, caso a pessoa prefira, pode se cadastrar informando CPF, Nome e Telefone.
